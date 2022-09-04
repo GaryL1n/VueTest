@@ -7,13 +7,13 @@ const styles = useCssModule();
 
 <template>
     <div :class="styles.navbar">
-        <router-link to="/">
+        <router-link to="/VueTry/">
             <span>useCssModule / GSAP</span>
         </router-link>
-        <router-link to="/template">
+        <router-link to="/VueTry/template">
             <span>reactive / ref / watch / v-if</span>
         </router-link>
-        <router-link to="/getapi">
+        <router-link to="/VueTry/getapi">
             <span>onMounted / axios / uuid</span>
         </router-link>
     </div>

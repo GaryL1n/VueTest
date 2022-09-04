@@ -4,9 +4,9 @@ import Template from '../pages/Template/TemPlate.vue';
 import Getapi from '../pages/GetApi/GetApi.vue';
 
 const routes = [
-    { path: '/', component: Home },
-    { path: '/template', component: Template },
-    { path: '/getapi', component: Getapi },
+    { path: '/VueTry/', component: Home },
+    { path: '/VueTry/template', component: Template },
+    { path: '/VueTry/getapi', component: Getapi },
 ];
 
 const router = createRouter({
