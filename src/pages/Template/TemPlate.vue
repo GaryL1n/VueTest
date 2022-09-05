@@ -32,13 +32,7 @@ watch(showMessage, () => {
     <div :class="styles.flex">
         <div>
             <h1>reactive / ref / watch / v-if</h1>
-            <button
-                @:click="
-                    () => {
-                        showMessage = !showMessage;
-                    }
-                "
-            >
+            <button @:click="showMessage = !showMessage">
                 {{ data.timeButton }}
             </button>
             <p v-if="showMessage">{{ data.time.slice(11, 25) }}</p>
